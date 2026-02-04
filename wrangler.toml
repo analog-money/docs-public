@@ -1,0 +1,8 @@
+name = "wafra-docs-public"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "out"
+
+# Build configuration
+[build]
+command = "pnpm install --frozen-lockfile && pnpm --filter docs-public build"
+cwd = "../.."
